@@ -1,1 +1,7 @@
 # flight-delay-prediction-ml
+
+This Project presents a comprehensive analysis of two statistical learning problems using real and simulated datasets. The first exercise focuses on modelling flight delay data, specifically flights from Washington DC to New York City in January 2004. The primary objective is to build a classification model to predict whether a flight is delayed by more than 15 minutes, using various temporal, operational, and environmental features.
+
+The process begins with exploratory data analysis (EDA) to uncover key patterns and correlations, followed by feature engineering and selection using correlation thresholds, subset selection, and LASSO regression. Several classification models — Logistic Regression, LDA, Decision Trees, Naive Bayes, Bagging, and Random Forests — are trained and evaluated using accuracy, sensitivity, specificity, and AUC metrics. The logistic regression model is ultimately chosen for its balanced performance.
+
+The second exercise involves synthetic data generation for regression analysis. Various linear models — LASSO, Ridge, Principal Component Regression (PCR), and Forward Subset Selection — are compared under different scenarios using Monte Carlo simulations. The performance is assessed using test Mean Squared Error (MSE), with the goal of identifying the most robust model under different data complexities. All analyses were conducted in Python using statistical libraries. The entire workflow emphasises robust modelling, variable reduction, and the impact of sample size and sparsity on model performance.
